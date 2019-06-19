@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thưchanh</title>
+</head>
+<body>
+<script>
+    let a = Number(prompt("Nhap so a: "));
+    let b = Number(prompt("Nhap so b: "));
+    let c = Number(prompt("Nhap so c: "));
+    let max =a;
+    if(b>a){
+        if(c>b){
+            max=c;
+        }
+        else max=b;
+    }
+    else{
+        if(c>a){
+            max=c;
+        }else max=a;
+    }
+    document.write("So lon nhat trong 3 so la: " +max);
+
+
+</script>
+</body>
+</html>
